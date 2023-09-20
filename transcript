@@ -1,0 +1,75 @@
+# vsim -voptargs="+acc" -c tb_top "+RUN_TYPE=base" "+CLASS=564" "+ROUNDS=2" "+TIMEOUT=1000000" -do "run -all" 
+# Start time: 14:27:06 on Dec 05,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "MyDesign(fast)".
+# //  ModelSim SE 2021.2 Apr 14 2021 Linux 3.10.0-1160.76.1.el7.x86_64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_top(fast)
+# Loading work.sram(fast)
+# Loading work.sram(fast__1)
+# Loading work.sram(fast__2)
+# Loading work.sram(fast__3)
+# Loading work.MyDesign(fast)
+# run -all
+# +CLASS+564
+# +RUN_TYPE+base
+# -------------------------------start_simulation-------------------------------
+# 
+# INFO::tb_top.input_mem.loadInitFile::readmem : ../564/input_0/input_sram_564.dat 
+# INFO::tb_top.weight_mem.loadInitFile::readmem : ../564/input_0/weight_sram_564.dat 
+# -------------------------------Round 0 start-------------------------------
+# 
+# -------------------------------Round 0 check start-------------------------------
+# 
+# -------------------------------store results to g_result.dat-------------------------------
+# 
+# -------------------------------load results to output_array-------------------------------
+# 
+# -------------------------------load results to golden_output_array-------------------------------
+# 
+# INFO::tb_top::readmem : ../564/input_0/golden_base_outputs_564.dat 
+# -------------------------------Round 0 start compare -------------------------------
+# 
+# -------------------------------Round 0 Your report-------------------------------
+# 
+# Check 1 : Correct g results = 143/143
+# computeCycle=3554
+# ---------------------------------------------------------------------------------
+# 
+# INFO::tb_top.input_mem.loadInitFile::readmem : ../564/input_1/input_sram_564.dat 
+# INFO::tb_top.weight_mem.loadInitFile::readmem : ../564/input_1/weight_sram_564.dat 
+# -------------------------------Round 1 start-------------------------------
+# 
+# -------------------------------Round 1 check start-------------------------------
+# 
+# -------------------------------store results to g_result.dat-------------------------------
+# 
+# -------------------------------load results to output_array-------------------------------
+# 
+# -------------------------------load results to golden_output_array-------------------------------
+# 
+# INFO::tb_top::readmem : ../564/input_1/golden_base_outputs_564.dat 
+# -------------------------------Round 1 start compare -------------------------------
+# 
+# -------------------------------Round 1 Your report-------------------------------
+# 
+# Check 1 : Correct g results = 55/55
+# computeCycle=1354
+# ---------------------------------------------------------------------------------
+# 
+# ** Note: $finish    : ../testbench/testbench.sv(349)
+#    Time: 50165 ns  Iteration: 1  Instance: /tb_top
+# End time: 14:27:08 on Dec 05,2022, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
